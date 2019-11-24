@@ -15,7 +15,8 @@ class Dashboard extends Component {
     this.initViz()  
   }
   initViz() {  
-    const vizUrl = "https://public.tableau.com/views/test_book_15607886387310/Sheet1?:embed=y&:display_count=yes&publish=yes&:origin=viz_share_link";
+    const vizUrl = "https://public.tableau.com/views/My_first_dashboard_15638891349800/Type"
+   //const vizUrl = "https://public.tableau.com/views/test_book_15607886387310/Sheet1?:embed=y&:display_count=yes&publish=yes&:origin=viz_share_link";
     const vizContainer = this.vizContainer;  
     let viz = new window.tableau.Viz(vizContainer, vizUrl)  
     // const options = {
